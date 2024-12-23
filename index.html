@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.ucuzabilet.com/resources/ub/css/v2/custom.css?v=bbe8cc5"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div
+      class="modal searchLoading show fade"
+      id="modalLoadingFlight"
+      role="dialog"
+      aria-labelledby="modalLoadingFlight"
+      aria-modal="true"
+      style="display: block"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content" style="top: 122px">
+          <div class="modal-body">
+            <div class="flightModalWaitText">
+              Sizin için ucuz uçuşları arıyoruz. Lütfen bekleyiniz.
+            </div>
+            <div class="progress-flight">
+              <div class="lines fullprs">
+                <span class="upper"></span>
+              </div>
+            </div>
+
+            <div class="searchLoadingLeg" data-leg="1" style="">
+              <div>
+                <fromcity>İstanbul</fromcity> (<fromiata>SAW</fromiata>)
+                <i class="csprite bg-tekyon"></i
+                ><tocity>Delhi</tocity> (<toiata>DEL</toiata>)
+              </div>
+              <p>
+                <datetext>23 Ocak 2025 Perşembe</datetext> |
+                <paxtypecounttext>1 Yetişkin</paxtypecounttext>
+              </p>
+            </div>
+            <div class="searchLoadingLeg" data-leg="2" style="display: none">
+              <div>
+                <fromcity></fromcity> (<fromiata></fromiata>)
+                <i class="csprite bg-tekyon"></i><tocity></tocity> (<toiata
+                ></toiata>)
+              </div>
+              <p>
+                <datetext></datetext> |
+                <paxtypecounttext>1 Yetişkin</paxtypecounttext>
+              </p>
+            </div>
+            <div class="searchLoadingLeg" data-leg="3" style="display: none">
+              <div>
+                <fromcity></fromcity> (<fromiata></fromiata>)
+                <i class="csprite bg-tekyon"></i><tocity></tocity> (<toiata
+                ></toiata>)
+              </div>
+              <p>
+                <datetext></datetext> |
+                <paxtypecounttext>1 Yetişkin</paxtypecounttext>
+              </p>
+            </div>
+          </div>
+          <div class="loadingBanner">
+            <img
+              alt="FLIGHT"
+              data-product="1"
+              data-flighttype=""
+              data-cfsrc="https://images.ucuzabilet.com/b2c/bannerManagement/2024/10/16/Loading responsive - otel_20241016165138.jpg"
+              src="https://images.ucuzabilet.com/b2c/bannerManagement/2024/10/16/Loading%20responsive%20-%20otel_20241016165138.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
